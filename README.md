@@ -3,7 +3,20 @@ A simple and small library for controlling stepper drivers such as the TMC2208 i
 
 > Also need to manually configure the PWM pulsation according to your driver's documentation, for my example it is 4.2ns, i.e. sConfigOC.Pulse = 200;
 
-Example:
+## Example:
+
+### TIM3
+![image](https://github.com/H6LS1S/STM32-STEPPER_LIB/assets/13855054/5cc0a521-d191-4fb5-9d14-c71d5dd7c53c)
+![image](https://github.com/H6LS1S/STM32-STEPPER_LIB/assets/13855054/80194f58-e1e8-40ba-979e-03eb53d92c22)
+
+### TMI16
+![image](https://github.com/H6LS1S/STM32-STEPPER_LIB/assets/13855054/ccf508ae-9c6c-4179-a3ff-d685278cbc48)
+![image](https://github.com/H6LS1S/STM32-STEPPER_LIB/assets/13855054/76466aa7-fc59-45e3-b919-898c96c96d5c)
+
+### GPIO
+![image](https://github.com/H6LS1S/STM32-STEPPER_LIB/assets/13855054/e7f6574c-5bf1-4a97-b094-ce8e8d7f5043)
+
+### Code
 ```c
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
